@@ -10,3 +10,19 @@ body{
     display: inline-block;
     width: 45%;
 }
+.btn{
+    padding: 15px;
+    color: white;
+    background-color: orchid;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all    .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all  .7s ease;
+    transition: all .7s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: lightblue;
+}
